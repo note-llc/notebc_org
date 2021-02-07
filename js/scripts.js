@@ -29,6 +29,7 @@
     |___Last Dropdown Selector
     |___Sidemenu Dropdown
     |___Contact Form Message Popup
+    |___JavaScript hashing
     |
 	[END INDEX ]
 
@@ -204,6 +205,10 @@
         } else {
             $('.sticky-header').removeClass('is-sticky');
         }
+        // This prevents the page from scrolling down to where it was previously.
+        if ('scrollRestoration' in history) {
+            history.scrollRestoration = 'manual';
+        }
     });
 
 
@@ -260,18 +265,29 @@
 
         switch (hash) {
             case "#home":
-                //routerView.innerHTML = "<h1>Home page</h1>";
                 $('#router-view').load('views/home.html');
+                window.scrollTo(0,0);
+                $('.banner-slider-active').slick('reinit');
                 break;
 
             case "#about":
-                //routerView.innerHTML = "<h1>About page</h1>";
                 $('#router-view').load('views/about.html');
+                window.scrollTo(0,0);
+                break;
+
+            case "#team":
+                $('#router-view').load('views/team.html');
+                window.scrollTo(0,0);
+                break;
+            
+            case "#news":
+                $('router-view').load('views/news.html');
+                window.scrollTo(0,0);
                 break;
 
             default:
-                //routerView.innerHTML = "<h1>404 - Page Not Found</h1>";
                 $('#router-view').load('views/home.html');
+                window.scrollTo(0,0);
                 break;
         }
     }

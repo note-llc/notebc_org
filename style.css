@@ -421,7 +421,7 @@ body {
   line-height: 30px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: #777777;
   font-weight: 400;
   overflow-x: hidden; }
@@ -430,7 +430,7 @@ img {
   max-width: 100%; }
 
 button {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Cabin", sans-serif; }
 
 ::-webkit-input-placeholder {
   color: #777777; }
@@ -483,7 +483,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin Condensed", sans-serif;
   line-height: 1.2; }
 
 h1,
@@ -686,7 +686,7 @@ blockquote {
   border-left: 3px solid #e0585a;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-style: italic;
   margin-left: 30px; }
   blockquote footer {
@@ -961,10 +961,10 @@ blockquote {
 
 /* Font specialized */
 .body-font {
-  font-family: "Roboto", sans-serif; }
+  font-family: "Cabin", sans-serif; }
 
 .heading-font {
-  font-family: "Roboto Condensed", sans-serif; }
+  font-family: "Cabin Condensed", sans-serif; }
 
 /* Font Weight */
 .font-bold {
@@ -1555,7 +1555,7 @@ button.cr-readmore {
     letter-spacing: 0.5px;
     text-transform: uppercase; }
   .section-title h2 {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Cabin Condensed", sans-serif;
     color: #333333;
     font-size: 48px;
     font-weight: 700; }
@@ -1612,7 +1612,7 @@ h5.small-title,
 h6.small-title {
   margin-bottom: 30px;
   color: #333333;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Cabin", sans-serif; }
 
 .small-title {
   margin-bottom: 30px; }
@@ -1624,7 +1624,7 @@ h6.small-title {
   .small-title h6 {
     margin-bottom: 0;
     color: #333333;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Cabin", sans-serif; }
   .small-title p {
     margin-top: 20px;
     margin-bottom: 0; }
@@ -1920,7 +1920,7 @@ h6.small-title {
     margin-top: 30px;
     margin-bottom: 0;
     padding-right: 50px;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Cabin", sans-serif; }
   .callto-action-inner .cr-btn {
     margin-top: 30px; }
 
@@ -2563,7 +2563,7 @@ h6.small-title {
       display: inline-block;
       font-size: 14px;
       line-height: 24px;
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       color: #ffffff;
       text-transform: capitalize; }
       .cr-breadcrumb ul li::after {
@@ -2622,7 +2622,7 @@ h6.small-title {
     font-weight: 500;
     font-size: 18px;
     margin-bottom: 0;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Cabin", sans-serif; }
 
 .accordion-body {
   padding: 25px;
@@ -2737,7 +2737,7 @@ Blocks Styles
         font-size: 14px;
         line-height: 24px;
         letter-spacing: 0.75px;
-        font-family: "Roboto Condensed", sans-serif;
+        font-family: "Cabin Condensed", sans-serif;
         font-weight: 700;
         text-transform: uppercase;
         padding: 45px 0;
@@ -3561,7 +3561,7 @@ Blocks Styles
         padding: 6px 0;
         color: #aaaaaa;
         text-transform: capitalize;
-        font-family: "Roboto", sans-serif;
+        font-family: "Cabin", sans-serif;
         font-weight: 400; }
       .header nav.menu li.cr-dropdown ul li:hover > a {
         color: #e0585a;
@@ -3660,7 +3660,7 @@ Blocks Styles
     border-right: 0; }
   .header nav.menu .cr-megamenu-single > h6 {
     color: #e0585a;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 14px;
     position: relative;
     padding-bottom: 15px;
@@ -3683,7 +3683,7 @@ Blocks Styles
       padding: 6px 0;
       color: #aaaaaa;
       text-transform: capitalize;
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       font-weight: 400; }
 .header nav.menu li.cr-megamenu > a::after {
   content: "\eb73";
@@ -4036,7 +4036,7 @@ Blocks Styles
     .single-banner.banner-container .single-banner-content h4,
     .single-banner.banner-container .single-banner-content h5,
     .single-banner.banner-container .single-banner-content h6 {
-      font-family: "Roboto", sans-serif; }
+      font-family: "Cabin", sans-serif; }
 
 @media only screen and (max-width: 767px) {
   .single-banner.banner-container .single-banner-content {
@@ -4165,7 +4165,7 @@ Blocks Styles
   .service-content h2, .service-content h3, .service-content h4, .service-content h5, .service-content h6 {
     font-weight: 700;
     color: #333333;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Cabin", sans-serif; }
     .service-content h2 a, .service-content h3 a, .service-content h4 a, .service-content h5 a, .service-content h6 a {
       color: #333333; }
       .service-content h2 a:hover, .service-content h3 a:hover, .service-content h4 a:hover, .service-content h5 a:hover, .service-content h6 a:hover {
@@ -4327,7 +4327,7 @@ Blocks Styles
   letter-spacing: 0.5px;
   text-transform: uppercase; }
 .about-content h2 {
-  font-family: "Roboto Condensed", sans-serif;
+  font-family: "Cabin Condensed", sans-serif;
   color: #333333;
   font-size: 48px;
   font-weight: 700;
@@ -4545,7 +4545,7 @@ Blocks Styles
       font-size: 18px;
       line-height: 36px;
       color: #555555;
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       font-weight: 700;
       margin-bottom: 5px;
       margin-top: 5px; }
@@ -4645,7 +4645,7 @@ Blocks Styles
     color: #555;
     font-size: 14px;
     line-height: 26px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight: 400; }
     .portfolio-filters button:first-child {
       padding-left: 0; }
@@ -4937,7 +4937,7 @@ Blocks Styles
   margin-top: 80px;
   text-align: left; }
   .portfolio-filters-minimal button {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Cabin Condensed", sans-serif;
     font-weight: 700;
     color: #777777;
     text-transform: capitalize;
@@ -5020,7 +5020,7 @@ Blocks Styles
     transform: translateY(0) translateZ(0);
     padding: 25px 20px; }
     .portfolios-minimal-2 .portfolio-content .portfolio-content-inner h5 {
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       font-weight: 700;
       color: #333333;
       margin-bottom: 10px; }
@@ -5122,7 +5122,7 @@ Blocks Styles
     letter-spacing: 0.5px;
     text-transform: uppercase; }
   .mission-area-content h2 {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Cabin Condensed", sans-serif;
     color: #333333;
     font-size: 48px;
     font-weight: 700;
@@ -5473,7 +5473,7 @@ a.video-popup-trigger {
     letter-spacing: 0.5px;
     text-transform: uppercase; }
   .skills-area-content > h2 {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Cabin Condensed", sans-serif;
     color: #333333;
     font-size: 48px;
     font-weight: 700;
@@ -5766,7 +5766,7 @@ a.video-popup-trigger {
       color: #b7b7b7;
       text-transform: uppercase;
       font-weight: 700;
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       margin-bottom: 5px; }
     .blog-horaizontal .blog-content p {
       font-size: 16px;
@@ -5840,7 +5840,7 @@ a.video-popup-trigger {
     -ms-flex-negative: 100;
     flex-shrink: 100; }
     .small-blog .small-blog-content h6 {
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       color: #646464;
       font-weight: 500;
       font-size: 16px;
@@ -5852,7 +5852,7 @@ a.video-popup-trigger {
         .small-blog .small-blog-content h6 a:hover {
           color: #e0585a; }
   .small-blog .small-blog-meta span {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Cabin Condensed", sans-serif;
     display: inline-block;
     color: #232323;
     font-size: 13px;
@@ -5924,7 +5924,7 @@ a.video-popup-trigger {
   .team-conetnt-info h5 {
     font-size: 18px;
     font-weight: 700;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     line-height: 30px;
     color: #555555;
     margin-bottom: 0;
@@ -5936,7 +5936,7 @@ a.video-popup-trigger {
   .team-conetnt-info h6 {
     font-size: 12px;
     color: #777777;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     line-height: 16px;
     margin-bottom: 0; }
 
@@ -6233,7 +6233,7 @@ a.video-popup-trigger {
     line-height: 26px;
     font-weight: 600;
     color: #555555;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     margin-bottom: 0; }
   .testimonial-author p {
     margin-bottom: 0;
@@ -6490,7 +6490,7 @@ a.video-popup-trigger {
     line-height: 26px;
     color: #333333;
     margin-bottom: 0;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Cabin", sans-serif; }
   .testimonial-wrap.testimonial-style-6 .testimonial-content-author p {
     display: block;
     color: #777777;
@@ -6774,7 +6774,7 @@ a.video-popup-trigger {
   margin-top: 70px; }
   .pg-portfolio-details h4 {
     color: #333333;
-    font-family: "Roboto", sans-serif; }
+    font-family: "Cabin", sans-serif; }
 
 .pg-portfolio-single-info {
   margin-top: 45px; }
@@ -6783,7 +6783,7 @@ a.video-popup-trigger {
     color: #333333;
     line-height: 26px;
     font-weight: 700;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     position: relative;
     padding-bottom: 15px; }
     .pg-portfolio-single-info h5::after {
@@ -6823,7 +6823,7 @@ a.video-popup-trigger {
   margin-top: 80px; }
   .pg-related-portfolio-wrap h4 {
     font-size: 24px;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight: 700;
     color: #333333; }
 
@@ -6896,7 +6896,7 @@ a.video-popup-trigger {
   padding: 40px 70px; }
   .pg-blog-content h2, .pg-blog-content h3, .pg-blog-content h4, .pg-blog-content h5, .pg-blog-content h6 {
     color: #333333;
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-weight: 500;
     margin-bottom: 0; }
     .pg-blog-content h2 a, .pg-blog-content h3 a, .pg-blog-content h4 a, .pg-blog-content h5 a, .pg-blog-content h6 a {
@@ -7027,7 +7027,7 @@ h2.blog-details-title {
   font-size: 36px;
   font-weight: 700;
   color: #333333;
-  font-family: "Roboto", sans-serif; }
+  font-family: "Cabin", sans-serif; }
 
 .blog-details-meta {
   padding-left: 0; }
@@ -7332,7 +7332,7 @@ h2.blog-details-title {
   margin-top: 25px; }
 .team-details h1, .team-details h2, .team-details h3, .team-details h4, .team-details h5, .team-details h6 {
   color: #555555;
-  font-family: "Roboto", sans-serif;
+  font-family: "Cabin", sans-serif;
   font-weight: 700; }
 
 .team-details-title h4 {
@@ -7441,7 +7441,7 @@ h2.blog-details-title {
     display: inline-block;
     margin-bottom: 30px; }
   .pg-contact-details .single-quick-contact h5 {
-    font-family: "Roboto", sans-serif;
+    font-family: "Cabin", sans-serif;
     font-size: 18px;
     line-height: 24px;
     color: #333333;
@@ -7619,7 +7619,7 @@ h2.blog-details-title {
   .widgets:not(.footer-widgets) .single-widget {
     margin-top: 50px; }
     .widgets:not(.footer-widgets) .single-widget h5.widget-title {
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       font-weight: 700;
       color: #ffffff;
       background: #e0585a;
@@ -7653,7 +7653,7 @@ h2.blog-details-title {
         font-size: 16px;
         color: #2f2f2f;
         font-weight: 700;
-        font-family: "Roboto", sans-serif;
+        font-family: "Cabin", sans-serif;
         margin-bottom: 7px; }
       .widgets:not(.footer-widgets) .about-widget .about-widget-content p {
         font-size: 14px;
@@ -7720,7 +7720,7 @@ h2.blog-details-title {
     -ms-flex-negative: 100;
     flex-shrink: 100; }
     .widgets:not(.footer-widgets) .widget-recent-post .widget-recent-post-content h6 {
-      font-family: "Roboto", sans-serif;
+      font-family: "Cabin", sans-serif;
       color: #646464;
       font-weight: 500;
       font-size: 16px;
@@ -7732,7 +7732,7 @@ h2.blog-details-title {
         .widgets:not(.footer-widgets) .widget-recent-post .widget-recent-post-content h6 a:hover {
           color: #e0585a; }
   .widgets:not(.footer-widgets) .widget-recent-post .widget-recent-post-meta span {
-    font-family: "Roboto Condensed", sans-serif;
+    font-family: "Cabin Condensed", sans-serif;
     display: inline-block;
     color: #232323;
     font-size: 13px;
@@ -7971,7 +7971,7 @@ h2.blog-details-title {
     Service Details Styles
 */
 .pg-service-title {
-  font-family: "Roboto", sans-serif;
+  font-family: "Cabin", sans-serif;
   color: #333333;
   margin-bottom: 60px; }
 
