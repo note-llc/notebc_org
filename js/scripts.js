@@ -279,6 +279,11 @@
                 $('#router-view').load('views/team.html');
                 window.scrollTo(0,0);
                 break;
+
+            case "#team/ramesh":
+                $('#router-view').load('views/team-ramesh.html');
+                window.scrollTo(0,0);
+                break;
             
             case "#news":
                 $('router-view').load('views/news.html');
