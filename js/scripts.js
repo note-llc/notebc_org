@@ -265,12 +265,13 @@
 
         switch (hash) {
             case "#home":
+                $("#banner-slick").removeClass('hidden');
                 $('#router-view').load('views/home.html');
                 window.scrollTo(0,0);
-                $('.banner-slider-active').slick('reinit');
                 break;
 
             case "#about":
+                $("#banner-slick").addClass('hidden');
                 $('#router-view').load('views/about.html');
                 window.scrollTo(0,0);
                 break;
