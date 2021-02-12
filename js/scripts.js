@@ -277,21 +277,25 @@
                 break;
 
             case "#team":
+                $("#banner-slick").addClass('hidden');
                 $('#router-view').load('views/team.html');
                 window.scrollTo(0,0);
                 break;
 
             case "#team/ramesh":
+                $("#banner-slick").addClass('hidden');
                 $('#router-view').load('views/team-ramesh.html');
                 window.scrollTo(0,0);
                 break;
             
             case "#news":
+                $("#banner-slick").addClass('hidden');
                 $('router-view').load('views/news.html');
                 window.scrollTo(0,0);
                 break;
 
             default:
+                $("#banner-slick").removeClass('hidden');
                 $('#router-view').load('views/home.html');
                 window.scrollTo(0,0);
                 break;
