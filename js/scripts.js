@@ -263,6 +263,8 @@
             throw new ReferenceError("No router view element available for rendering");
         }
 
+        //console.log(hash);
+
         switch (hash) {
             case "#home":
                 $("#banner-slick").removeClass('hidden');
@@ -291,6 +293,13 @@
             case "#news":
                 $("#banner-slick").addClass('hidden');
                 $('router-view').load('views/news.html');
+                window.scrollTo(0,0);
+                break;
+
+            case "#contact":
+                $("#banner-slick").addClass('hidden');
+                console.log("Within Contact");
+                $('router-view').load('views/contact.html');
                 window.scrollTo(0,0);
                 break;
 
